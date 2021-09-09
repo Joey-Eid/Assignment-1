@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ 	<head lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--<link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style-login.css">
+ 	</head>
+ 	<body>
+      	<h1>
+        <em>Welcome to Joey's Keys!!</em>
+      	</h1>
+		<form action="submission.html" class="form-horizontal">
+			<h2>
+			Login into your account..
+			</h2>
+			<br>
+			<section class="username form-group">
+      			<label for="Username" class="control-label col-sm-4">Please enter your stage name:</label>
+      			<input type="text" name="Username" id="Username" minlength="8" maxlength="15" required class="form-control col-sm-8">
+			</section>
+			<section class="password form-group">
+      			<label for="Password" class="control-label col-sm-4">Please enter your secret melody:</label>
+      			<input class="form-control col-sm-8" type="password" name="Password" id="Password" minlength="8" maxlength="15" required>
+			</section>
+			<section class="checkbox form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<label>
+					<input id="box" name="box" type="checkbox" value="box">Remember me</label>
+				</div>
+			</section>
+    		<section class="submission form-group">
+          		<input type="submit" class="btn btn-primary form-control" value="Submit Button">
+			</section>
+        </form>
+        <figure>
+          <img src="https://brebru.com/musicroom/theory/lesson3/keyboard.gif" class="img-responsive"/>
+        </figure>
+  	</body> 
+</html>
